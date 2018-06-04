@@ -10,7 +10,7 @@
     version: 3.9
   roles:
     # provision volumes 
-    # - { role: provision }
+    - { role: provision }
 
     # create and add DNS entries
     - { role: dns}
